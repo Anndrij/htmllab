@@ -1,0 +1,20 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+
+.s2 td:first-child{
+    background: aquamarine;
+}
+.s1 tr:first-child{
+    background: yellow;
+}
+.s1 tr:last-child{
+    background: green;
+}
+.li li{
+    list-style: none;
+}
